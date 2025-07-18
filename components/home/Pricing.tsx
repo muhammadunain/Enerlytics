@@ -44,7 +44,7 @@ const PricingTier: React.FC<PricingTierProps> = ({
       
       <div className="mt-8">
         <button 
-          className={`w-full rounded-lg py-3 px-4 font-medium text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 ${
+          className={`w-full rounded-lg cursor-pointer py-3 px-4 font-medium text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 ${
             highlighted 
               ? 'bg-white text-emerald-700 hover:bg-emerald-50 focus:ring-white' 
               : 'bg-emerald-600 text-white hover:bg-emerald-700 focus:ring-emerald-500'
@@ -127,7 +127,7 @@ const Pricing = () => {
           <p className="text-slate-300 mb-6">
             Need a custom solution? We can tailor our services to your specific requirements.
           </p>
-          <button className="bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-emerald-500/25">
+          <button className="bg-gradient-to-r  cursor-pointer from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-emerald-500/25">
             Get Custom Pricing
           </button>
         </div>

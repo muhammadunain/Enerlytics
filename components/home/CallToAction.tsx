@@ -14,12 +14,12 @@ const CallToAction = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-            <button className="group bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-emerald-500/25">
+            <button className="group cursor-pointer bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-emerald-500/25">
               Start Your Free Assessment
               <ChevronRight className="inline-block ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </button>
             
-            <button className="text-white px-8 py-4 rounded-full font-semibold text-lg border border-slate-600 hover:border-emerald-400 transition-colors">
+            <button className="text-white cursor-pointer px-8 py-4 rounded-full font-semibold text-lg border border-slate-600 hover:border-emerald-400 transition-colors">
               Schedule a Demo
             </button>
           </div>

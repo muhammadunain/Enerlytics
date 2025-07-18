@@ -58,12 +58,12 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-5 justify-center items-center mb-14 animate-fadeInUp animation-delay-400">
-              <button className="group bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-emerald-500/30 flex items-center">
+              <button className="group bg-gradient-to-r cursor-pointer from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-emerald-500/30 flex items-center">
                 Get Your Energy Assessment
                 <ChevronRight className="inline-block ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </button>
               
-              <button className="group flex items-center text-white px-8 py-4 rounded-full font-semibold text-lg border border-slate-600 hover:border-emerald-400 transition-all duration-300 hover:bg-slate-800/50 backdrop-blur-sm">
+              <button className="group flex items-center cursor-pointer text-white px-8 py-4 rounded-full font-semibold text-lg border border-slate-600 hover:border-emerald-400 transition-all duration-300 hover:bg-slate-800/50 backdrop-blur-sm">
                 <Play className="h-5 w-5 mr-2 text-emerald-400 group-hover:scale-110 transition-transform" />
                 Watch Demo
               </button>

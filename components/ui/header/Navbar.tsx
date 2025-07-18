@@ -23,7 +23,7 @@ const Navbar = () => {
             </div>
             
             <div className="hidden md:flex items-center space-x-8">
-              <a href="#features" className="text-slate-300 hover:text-emerald-400 transition-colors">Features</a>
+              <a href="#features" className="text-slate-300 hover:text-emerald-400 cursor-pointer transition-colors">Features</a>
               <a href="#how-it-works" className="text-slate-300 hover:text-emerald-400 transition-colors">How It Works</a>
               <a href="#pricing" className="text-slate-300 hover:text-emerald-400 transition-colors">Pricing</a>
               <button className="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-2 rounded-full font-semibold transition-colors">
